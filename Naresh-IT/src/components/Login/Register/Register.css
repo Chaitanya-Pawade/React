@@ -1,0 +1,31 @@
+form{
+    border: 1px solid gray;
+    box-shadow: 2px 2px 2px black;
+    padding: 20px;
+    border-radius: 20px;
+    width: 20%;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.btn-class{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+    width: 100%;
+}
+
+input{
+    width: 100%;
+    font-size: 20px;
+}
+h2{
+    text-align: center;
+}
+

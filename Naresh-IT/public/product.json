@@ -1,0 +1,8 @@
+{
+    "title" : "Bulb (30 Watts)",
+    "price" : 60999,
+    "rating" : {"rate" : 4.6,"count" : 3500,"reviews": 600},
+    "image" : "./Images/img-bulb.jpg",
+    "feature" : [" 30 W Super LED with electricity saving bulb" , "Light weight","10% off on buying 2 bulb","Low Cost"]
+    
+}  
