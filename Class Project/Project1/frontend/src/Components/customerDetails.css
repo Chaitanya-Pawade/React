@@ -1,0 +1,46 @@
+.form-group {
+    margin-bottom: 1rem;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  .card h2 {
+    color: #333;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+  }
+  
+  .text-danger {
+    font-size: 0.875rem;
+  }
+  
+  .input-group {
+    margin-bottom: 1rem;
+  }
+  
+  .customer-details-card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 1rem;
+  }
+  
+  .customer-details-card p {
+    margin-bottom: 0.5rem;
+  }
+  
+  .customer-details-card button {
+    margin-top: 1rem;
+  }
+  

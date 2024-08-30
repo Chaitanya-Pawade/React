@@ -1,0 +1,84 @@
+/* Payment.css */
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    background-color: gainsboro;
+}
+
+.payment-card {
+    width: 100%;
+    max-width: 600px;
+}
+
+.card {
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+}
+
+.card-header {
+    background-color: rgb(63, 62, 62);
+    color: #fff;
+    border-bottom: 1px solid #007bff;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    padding: 15px;
+    text-align: center;
+}
+
+.card-body {
+    padding: 30px;
+    
+}
+
+.details-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+}
+
+.details-row p {
+    margin: 0;
+}
+
+.card-body h3 {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+/* Base button styling */
+.btnl-primary {
+    background-color: #007bff; /* Primary blue color */
+    border-color: #007bff;
+    width: 230px;
+    padding: 7px;
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+    margin: auto;
+    display: block;
+    height: 60px;
+    color: white; /* Text color */
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+}
+
+/* Hover effect */
+.btnl-primary:hover {
+    background-color: #0056b3; /* Darker shade of the primary color */
+    transform: scale(1.02); /* Slightly enlarge the button */
+    color: white; /* Ensure the text remains white */
+}
+
+/* 
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+    
+} */

@@ -8,6 +8,7 @@ import J1basics from "./basicJSX/J1basics.js";
 import CSSStylesheetComponent from "./components/basic-components/CSSStylesheetComponent.js";
 import InlineStylingComponent from "./components/basic-components/InlineStylingComponent.js";
 import CSSModulesComponent from "./components/basic-components/CSSModulesComponent.js";
+import Assign1 from "/src/Assignments/Assign1.js";
 // Define a functional component called App
 function App() {
 
@@ -33,9 +34,11 @@ function App() {
           
             {/* css style */}
             
-           <CSSStylesheetComponent />
-           <InlineStylingComponent />
-           <CSSModulesComponent />
+           {/* <CSSStylesheetComponent /> */}
+           {/* <InlineStylingComponent /> */}
+           {/* <CSSModulesComponent /> */}
+
+           {/* <Assign1 /> */}
         </header>
       </div>
     </div>

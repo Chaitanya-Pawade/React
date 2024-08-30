@@ -1,0 +1,43 @@
+/* BookingStatus.css */
+
+/* Style for background container */
+.background-container {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://example.com/your-theatre-background-image.jpg') no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Custom styling for the card */
+.booking-card {
+    background: rgba(0, 0, 0, 0.8); /* Darker background for card */
+    border: 1px solid #444; /* Subtle border */
+    color: #f8f9fa; /* Light text color */
+    border-radius: 10px; /* Rounded corners */
+    padding: 2rem; /* Increased padding */
+}
+
+/* Header and body styling */
+.card-headerr {
+    border-bottom: 2px solid #444; /* Dark border under header */
+}
+
+.card-body {
+    text-align: left; /* Left-align text */
+}
+
+/* Button styling */
+.btnn-primary {
+    background-color: #e83e8c; /* Custom button color */
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.btnn-primary:hover {
+    background-color: #c82333; /* Darker color on hover */
+}
+.heading-confirm{
+    color: rgb(2, 232, 2);
+}

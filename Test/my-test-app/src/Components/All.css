@@ -1,0 +1,26 @@
+/* Custom CSS for result cards */
+.result-card {
+    border: 1px solid #dee2e6; /* Light border around result cards */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+  }
+  
+  .result-card:hover {
+    transform: translateY(-5px); /* Lifts the card on hover */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Adds shadow on hover */
+  }
+  
+  /* Badge styles */
+  .badge {
+    font-size: 1.2rem;
+    padding: 0.8rem 1rem;
+  }
+  
+  /* Adjusting text color for better readability */
+  .card-body {
+    color: #333; /* Dark text color */
+  }
+  
+  /* Additional customizations as needed */
+  .span {
+    text: black; 
+  }

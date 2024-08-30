@@ -1,0 +1,31 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #333;
+    color: white;
+  }
+  .bar h1 {
+    color: white;
+    margin: 0;
+  }
+
+    input[type="search"] {
+        padding: 0.5rem;
+        width: 300px;
+        border-radius: 4px;
+        border: 1px solid #ccc;
+      }
+
+    .btns{
+       display: flex;
+       /* justify-items: center; */
+       gap: 20px;
+    }
+
+    .login_page{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }

@@ -1,0 +1,204 @@
+/* .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1rem;
+  background-color: #333;
+  color: white;
+}
+.bar h1 {
+  color: white;
+  margin: 0;
+}
+
+  input[type="search"] {
+      padding: 0.5rem;
+      width: 300px;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+    }
+
+  .btns{
+     display: flex;
+     justify-items: center;
+     gap: 20px;
+  } 
+
+  .login_page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* Navbar.css */
+/* .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 1rem;
+  color: white;
+}
+
+.bar h1 {
+  margin: 0;
+}
+
+.btns {
+  display: flex;
+  gap: 1rem;
+}
+
+.movie-list {
+  padding: 1rem;
+}
+
+.movie {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+.movie img {
+  max-width: 100%;
+  height: auto;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 1rem;
+  color: white;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000; 
+}
+
+.navbar h1 {
+  margin: 0;
+}
+
+.btns {
+  display: flex;
+  gap: 1rem;
+}
+
+/* .movie-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 100px; 
+  padding: 60px;
+  width: 90%;
+  margin: 0 auto;
+} */
+.movie-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px 20px;
+  padding: 0 40px;
+  width: 90%;
+  margin: 0 auto;
+  position: absolute;
+  margin-top: 130px;
+}
+.movie {
+  background-color: rgb(29, 10, 10);
+  color: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s, box-shadow 0.3s;
+  text-align: center;
+  height: 100%;
+  width: 300px;
+}
+
+.movie:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.7);
+}
+
+.movie img {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+  margin-bottom: 1rem;
+}
+
+.movie h2 {
+  font-size: 1.5rem;
+  margin: 0.5rem 0;
+}
+
+.movie p {
+  font-size: 1rem;
+  color: #aaa;
+}
+
+.navbar input[type="search"] {
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  padding: 0.5rem;
+  width: 200px;
+}
+
+.btn {
+  cursor: pointer;
+}
+.movie-poster {
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+}
+
+/* Define base button styling */
+.button-book {
+  width: 150px;
+  background-color: rgb(64, 64, 180);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition for hover effects */
+}
+
+/* Hover effect */
+.button-book:hover {
+  background-color: rgb(50, 50, 150); /* Darker shade of the button color */
+  transform: scale(1.05); /* Optional: Slightly enlarge the button */
+}

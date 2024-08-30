@@ -1,0 +1,70 @@
+/* Confirmation.css */
+
+/* Full viewport background */
+body {
+    margin: 0;
+    height: 100vh;
+    background: #f4f6f9; /* Light background color for the entire page */
+}
+
+/* Container styling */
+.container3 {
+    min-height: 100vh; /* Ensure the container takes at least the full height of the viewport */
+    display: flex;
+    justify-content: center; /* Center the card horizontally */
+    align-items: center; /* Center the card vertically */
+    padding: 30px;
+}
+
+/* Payment card styling */
+.payment-card {
+    max-width: 600px;
+    width: 100%; /* Make sure the card takes up full width within its container */
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff; /* White background for the card */
+}
+
+/* Card header styling */
+.new-card-header {
+    background-color: #00796b; /* ATM-style dark teal color */
+    color: #ffffff;
+    padding: 15px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    text-align: center;
+}
+
+/* Card body styling */
+.card-body {
+    padding: 20px;
+}
+
+/* Custom button styling */
+.custom-btn {
+    background-color: #004d40; /* ATM-style dark green */
+    border-color: #004d40;
+    color: #ffffff; /* Text color */
+    padding: 10px 20px;
+    border-radius: 8px; /* Rounded corners */
+    transition: background-color 0.3s, border-color 0.3s; /* Smooth transition for color change */
+    text-align: center; /* Center text */
+    display: inline-block; /* Ensure button size adjusts to text */
+}
+
+/* Button hover, focus, and active states */
+.custom-btn:hover, 
+.custom-btn:focus, 
+.custom-btn:active {
+    background-color: #00332e; /* Darker green for hover effect */
+    border-color: #00332e;
+    color: #ffffff; /* Text color */
+    outline: none; /* Remove focus outline */
+}
+    
+/* Error message styling */
+.error {
+    font-size: 0.875rem;
+    color: #f44336; /* Red color for error messages */
+}
