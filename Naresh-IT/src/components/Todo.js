@@ -18,7 +18,7 @@ export default function Todo(){
         // console.log(data.todos));
         
     },[]);
-    
+
     
     return(
         <>
@@ -36,6 +36,7 @@ export default function Todo(){
     )
 }
 
+console.log(new commits);
 
 
 
