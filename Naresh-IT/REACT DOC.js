@@ -2,7 +2,7 @@
 Todo->React Notes
 
 
-!React Syllabu
+!React Syllabus
 	-ReactJs features (VirtualDOM , ReConciliation)
 	-Local Environemnt Setup
 	-Create-react-app
@@ -224,9 +224,9 @@ Todo->React Notes
 ?---------------------------------------------------------------------------------------------------------
     -React tells the DOM to render the changes that was created in the previous phase.
     -the Reconciliation phase can be interrupted, the Commit phase cannot.
+z2w```````
 
-
-
+l lk
 !React Project - Folder Structure
     node_modules/	    :  Provides npm packages to the entire workspace. Workspace-wide node_modules dependencies are visible to all projects.
     public/ 		    :  Only files inside the `public` folder can be referenced from the HTML

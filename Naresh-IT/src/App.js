@@ -53,6 +53,8 @@ import Assign9 from "./components/Assignments/Assign9";
 import Assign10 from "./components/Assignments/Todo App/Assign10";
 import FormValidation from "./components/Forms/FormValidation";
 import Form4 from "./components/Forms/Form4";
+import UseForm from './components/Forms/UseForm';
+import Todo from "./components/Todo";
 // import UseEffect from "./components/Hooks/useEffect";
 function App() {
   let f1 = function () {
@@ -79,7 +81,7 @@ function App() {
       {/* <UseEffect/> */}
       {/* <UseRef/> */}
       {/* <Register/> */}
-      <Form1 />
+      {/* <Form1 /> */}
       {/* <Form2/> */}
       {/* <RegistrationForm /> */}
       {/* <Form3/> */}
@@ -132,6 +134,9 @@ function App() {
       {/* <Assign10/> */}
 
      {/* hooks */}
+
+     {/* <UseForm/> */}
+     <Todo/>
     
       
     </div>
